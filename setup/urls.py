@@ -24,8 +24,4 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", home),
 ]
-urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", todo_list)
-    ]
-
+urlpatterns = [path("admin/", admin.site.urls), path("", todo_list)]
